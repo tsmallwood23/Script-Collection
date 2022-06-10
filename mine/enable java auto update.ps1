@@ -1,0 +1,1 @@
+﻿Set-ItemProperty -Path Registry::“HKLM\SOFTWARE\WOW6432Node\JavaSoft\Java Update\Policy” -Name “EnableJavaUpdate” -Value 1 -Force
