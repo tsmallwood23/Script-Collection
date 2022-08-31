@@ -1,1 +1,0 @@
-﻿Remove-ItemProperty -Path Registry::“HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run” “Lync” -Force

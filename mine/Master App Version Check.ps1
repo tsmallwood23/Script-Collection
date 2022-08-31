@@ -1,2 +1,0 @@
-﻿#Replace App Name Here with the name of the app you are trying to check the version of. It will then return the value of the version of the app
-get-ciminstance Win32_Product | Where-Object Name -like "App Name Here" | Select-Object Version).Version

@@ -1,2 +1,0 @@
-﻿New-ItemProperty -Path Registry::"HKLM\SOFTWARE\Policies\Zoom\Zoom Meetings\General" -Name "EnableClientAutoUpdate" -Value "1" -PropertyType "DWORD" -Force
-New-ItemProperty -Path Registry::"HKLM\SOFTWARE\Policies\Zoom\Zoom Meetings\General" -Name "EnableSilentAutoUpdate" -Value "1" -PropertyType "DWORD" -Force
