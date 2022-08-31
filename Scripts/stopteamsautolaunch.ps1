@@ -1,0 +1,2 @@
+﻿New-Item -Path Registry::"HKLM\SOFTWARE\Policies\Microsoft\Office\16.0\Teams" -Force
+New-ItemProperty -Path Registry::"HKLM\SOFTWARE\Policies\Microsoft\Office\16.0\Teams" -Name "PreventFirstLaunchAfterInstall" -Value "1" -PropertyType "DWORD" -Force

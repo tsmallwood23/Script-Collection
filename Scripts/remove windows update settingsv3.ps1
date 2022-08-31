@@ -1,0 +1,1 @@
+﻿Remove-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU*" -Recurse

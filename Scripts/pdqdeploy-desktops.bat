@@ -1,0 +1,1 @@
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""\\tsj-mdt-01\mdtproduction$\scripts\pdqdeploy-ps-desktops.ps1""' -Verb RunAs}"

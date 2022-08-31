@@ -1,0 +1,1 @@
+dism /online /Import-DefaultAppAssociations:"DefaultApplicationAssociations.xml"
